@@ -1,17 +1,17 @@
 {
-  "@@locale": "en",
+  "@@locale": "de",
   "appTitle": "Pocket Sense",
-  "cancel": "Cancel",
-  "delete": "Delete",
-  "save": "Save",
-  "edit": "Edit",
-  "retry": "Retry",
-  "tryAgain": "Try again",
-  "add": "Add",
-  "newItem": "New",
-  "more": "More",
-  "done": "Done",
-  "whatsNewTitle": "What's new in {version}",
+  "cancel": "Abbrechen",
+  "delete": "Löschen",
+  "save": "Speichern",
+  "edit": "Bearbeiten",
+!  "retry": "Retry",
+!  "tryAgain": "Try again",
+  "add": "Hinzufügen",
+  "newItem": "Neu",
+  "more": "Mehr",
+  "done": "Fertig",
+  "whatsNewTitle": "Was gibt es neues in {version}",
   "@whatsNewTitle": {
     "placeholders": {
       "version": {
@@ -19,28 +19,28 @@
       }
     }
   },
-  "whatsNewFeatures": "New features",
-  "whatsNewImprovements": "Enhancements",
-  "whatsNewChanges": "Changes",
-  "whatsNewFixes": "Fixes",
-  "all": "All",
-  "expense": "Expense",
-  "income": "Income",
-  "category": "Category",
-  "categoryOptional": "Category (optional)",
-  "amount": "Amount",
-  "date": "Date",
-  "description": "Description",
-  "descriptionOptional": "Description (optional)",
-  "merchant": "Merchant",
-  "merchantOptional": "Merchant (optional)",
-  "merchantSearchHint": "Search or create merchants…",
-  "notesOptional": "Notes (optional)",
-  "notesHint": "Any extra details…",
-  "type": "Type",
-  "uncategorized": "Uncategorized",
-  "transactionFallback": "Transaction",
-  "deleteFailed": "Delete failed: {error}",
+  "whatsNewFeatures": "Neue Funktionen",
+  "whatsNewImprovements": "Verbesserungen",
+  "whatsNewChanges": "Änderungen",
+  "whatsNewFixes": "Fehlerbehebungen",
+  "all": "Alle",
+  "expense": "Ausgaben",
+  "income": "Einkommen",
+  "category": "Kategorie",
+  "categoryOptional": "Kategorie (optional)",
+  "amount": "Betrag",
+  "date": "Datum",
+  "description": "Beschreibung",
+  "descriptionOptional": "Beschreibung (optional)",
+!  "merchant": "Merchant",
+!  "merchantOptional": "Merchant (optional)",
+!  "merchantSearchHint": "Suche oder erstelle merchants…",
+  "notesOptional": "Notizen (optional)",
+  "notesHint": "Zusätzliche Details…",
+  "type": "Typ",
+  "uncategorized": "Unkategorisiert",
+!  "transactionFallback": "Transaction",
+  "deleteFailed": "Löschen fehlgeschlagen: {error}",
   "@deleteFailed": {
     "placeholders": {
       "error": {
@@ -48,7 +48,7 @@
       }
     }
   },
-  "saveFailed": "Save failed: {error}",
+  "saveFailed": "Speichern fehlgeschlagen: {error}",
   "@saveFailed": {
     "placeholders": {
       "error": {
@@ -56,7 +56,7 @@
       }
     }
   },
-  "deleteNamedTitle": "Delete \"{name}\"?",
+  "deleteNamedTitle": "Lösche \"{name}\"?",
   "@deleteNamedTitle": {
     "placeholders": {
       "name": {
@@ -64,15 +64,15 @@
       }
     }
   },
-  "couldNotLoad": "Could not load",
-  "navHome": "Home",
-  "navOverview": "Overview",
-  "navActivity": "Activity",
+  "couldNotLoad": "Konnte nicht geladen werden",
+!  "navHome": "Home",
+  "navOverview": "Überblick",
+!  "navActivity": "Activity",
   "navBudgets": "Budgets",
-  "navRecurring": "Recurring",
-  "settings": "Settings",
-  "startupErrorTitle": "Couldn't open your data",
-  "keyringUnavailable": "The system keyring is unavailable ({detail}). Pocket Sense keeps its encryption key there. On Linux, make sure a Secret Service provider such as GNOME Keyring or KWallet is running and unlocked.",
+!  "navRecurring": "Recurring",
+  "settings": "Einstellungen",
+  "startupErrorTitle": "Ihre Daten konnten nicht geöffnet werden",
+!  "keyringUnavailable": "The system keyring is unavailable ({detail}). Pocket Sense keeps its encryption key there. On Linux, make sure a Secret Service provider such as GNOME Keyring or KWallet is running and unlocked.",
   "@keyringUnavailable": {
     "placeholders": {
       "detail": {
@@ -80,7 +80,7 @@
       }
     }
   },
-  "keystoreUnavailableAndroid": "Android's keystore, which holds Pocket Sense's encryption key, didn't respond ({detail}). Nothing was deleted. Try again, or restart your phone if it keeps happening.",
+  "keystoreUnavailableAndroid": "Der Android keystore, der das Verschlüsselungspasswort von Pocket Sense enthält, antwortet nicht ({detail}). Nichts ist gelöscht. Versuchen Sie es noch ein mal oder starten Sie ihr Gerät neu, wenn es weiterhin passiert.",
   "@keystoreUnavailableAndroid": {
     "placeholders": {
       "detail": {

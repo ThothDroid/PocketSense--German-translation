@@ -5,7 +5,7 @@ import 'app_settings.dart';
 
 /// Language names are written in their own language, so a person can find
 /// theirs whatever the UI is currently showing.
-const languageNames = {'en': 'English', 'ar': 'العربية'};
+const languageNames = {'en': 'English', 'ar': 'العربية', 'de': 'Deutsch'};
 
 /// The language chooser used by Settings and the welcome screen.
 Future<void> pickLanguage(BuildContext context) async {
