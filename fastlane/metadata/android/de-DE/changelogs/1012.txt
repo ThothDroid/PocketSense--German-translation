@@ -1,2 +1,2 @@
-• Forms now say what's missing when you save with a required field empty.
-• If your phone's language isn't English or Arabic, the app now opens in English instead of Arabic.
+• Das Formular sagt jetzt, was fehlt wenn Sie speichern, ohne ein benötigtes Feld anzugeben.
+• Wenn Ihre App Sprache nicht Englisch oder Arabisch ist, öffnet die App in Englisch anstatt in Arabisch.
